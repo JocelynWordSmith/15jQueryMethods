@@ -1,0 +1,126 @@
+// bower:scss
+// endbower
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 60px;
+    h1 {
+        font-size: 60px;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/*my code*/
+.entry {
+    position: relative;
+    height: 200px;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+}
+.button {
+    position: absolute;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 175px;
+    text-align: center;
+    left: 0;
+    top: 50%;
+}
+
+.box1, .box2, .box3 {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    margin: 5px;
+    float: left;
+}
+
+/*example 5*/
+.folder {
+    padding:5px;
+    text-align:center;
+    background-color:#e5eecc;
+    border:solid 1px #c3c3c3;
+}
+
+.contents {
+    padding:5px;
+    text-align:center;
+    background-color:#e5eecc;
+    border:solid 1px #c3c3c3;
+    padding:50px;
+    display:none;
+}
+
+/*example 7*/
+.tog-box {
+    height: 80px;
+    width: 80px;
+    padding:5px;
+    position: absolute;
+    background-color: green;
+    border:solid 1px #c3c3c3;
+}
+
+/*example 6*/
+.slide-box {
+    height: 80px;
+    width: 80px;
+    padding:5px;
+    position: absolute;
+    background-color: blue;
+    border:solid 1px #c3c3c3;
+}
+
+/*example 11*/
+.css-box {
+    height: 80px;
+    width: 80px;
+    padding:5px;
+    position: absolute;
+    background-color: green;
+    border:solid 1px #c3c3c3;
+}
+
+/*example 12*/
+.size-box {
+    height: 80px;
+    width: 80px;
+    padding:5px;
+    position: absolute;
+    background-color: red;
+    border:solid 1px #c3c3c3;
+}
+
+/*example 13*/
+.box4, .box5, .box6 {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    margin: 5px;
+    float: left;
+}

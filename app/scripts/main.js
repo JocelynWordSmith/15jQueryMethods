@@ -2,6 +2,11 @@
 
 console.log('\'Allo \'Allo!');
 
+$('.description').prepend('<div class="triangle"></div>');
+
+
+
+
 // example 1
 $('.button1').click(function() {
 	$('.example1').before('<h1>Welcome to :</h1>');
@@ -44,7 +49,7 @@ $('.button7').click(function(){
 
 //example 8
 $('.button8').click(function(){
-	$('.example8').html('<b>Hello world!</b>');
+	$('.example8').html('<b>Harumph!</b>');
 });
 
 //example 9
